@@ -4,6 +4,7 @@
 
 
 :root {
+    --branco: #ffffff;
     --marrom-escuro: #2B1D17;
     --marrom-chocolate: #493126;
     --caramelo: #B98252;
@@ -11,9 +12,9 @@
     --creme: #F8F1E7;
     --branco-quente: #FFFDF9;
 
-    --font-lato:'Lato', sans-serif;
+    --font-lato:'Lato', cursive;
     --font-playfair:'Playfair Display', cursive;
-    --font-dancing:'Dancing Script', sans-serif;
+    --font-dancing:'Dancing Script', cursive;
 }
 
 * {
@@ -37,3 +38,25 @@ header.topo div.campo_logo {
     align-items: center;
 }
 
+div.campo_logo img {
+    width: 70px;
+}
+
+div.campo_logo h1 {
+    color: var(--branco);
+    font-family: var(--font-dancing);
+    font-size: 1.5em;
+}
+
+header.topo nav.navegacao {
+    display: flex;
+    gap: 1.8em;
+    margin-left: auto;
+}
+
+nav.navegacao a {
+    color: var(--branco);
+    font-family: var(--font-lato);
+    font-weight: bold;
+    text-decoration: none;
+}
