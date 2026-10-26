@@ -17,6 +17,10 @@
     --font-dancing:'Dancing Script', cursive;
 }
 
+body {
+    background-color: var(--creme);
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -60,4 +64,17 @@ nav.navegacao a {
     font-family: var(--font-lato);
     font-weight: bold;
     text-decoration: none;
+}
+
+header.topo form {
+    margin-left: 100px;
+}
+
+form input {
+    background-color: var(--creme);
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid var(--caramelo);
+    outline: none;
+    padding: 10px;
 }
