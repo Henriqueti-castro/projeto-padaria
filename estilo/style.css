@@ -36,6 +36,7 @@ header.topo {
 header.topo div.campo_logo {
     display: flex;
     align-items: center;
+    gap: 0.5em;
 }
 
 div.campo_logo img {
