@@ -83,3 +83,9 @@ form input {
     outline: none;
     padding: 10px;
 }
+
+main.principal div.banner_paes {
+    background: var(--caramelo) url('../imagens/banner/banner-paes.png') center center no-repeat;
+    background-size: cover;
+    height: 500px;
+}
