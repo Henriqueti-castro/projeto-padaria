@@ -32,3 +32,8 @@ header.topo {
     padding-bottom: 10px;
 }
 
+header.topo div.campo_logo {
+    display: flex;
+    align-items: center;
+}
+
