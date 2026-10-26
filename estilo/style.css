@@ -31,6 +31,7 @@ header.topo {
     background-color: var(--marrom-escuro);
     display: flex;
     align-items: center;
+    border-bottom: 1px solid var(--marrom-chocolate);
     padding-top: 10px;
     padding-left: 100px;
     padding-right: 100px;
