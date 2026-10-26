@@ -4,6 +4,13 @@
 
 
 :root {
+    --marrom-escuro: #2B1D17;
+    --marrom-chocolate: #493126;
+    --caramelo: #B98252;
+    --bege-trigo: #E8D5B7;
+    --creme: #F8F1E7;
+    --branco-quente: #FFFDF9;
+    
     --font-lato:'Lato', sans-serif;
     --font-playfair:'Playfair Display', cursive;
     --font-dancing:'Dancing Script', sans-serif;
