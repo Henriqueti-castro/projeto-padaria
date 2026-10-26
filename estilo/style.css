@@ -22,3 +22,13 @@
     box-sizing: border-box;
 }
 
+header.topo {
+    background-color: var(--marrom-escuro);
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+}
+
