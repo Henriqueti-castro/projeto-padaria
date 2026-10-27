@@ -171,3 +171,20 @@ div.nossos article {
     width: 300px;
     height: 400px;
 }
+
+article h4 {
+    color: var(--marrom-chocolate);
+    background-color: var(--creme);
+    font-family: var(--font-playfair);
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    padding: 10px;
+}
+
+article picture {
+    background-color: var(--marrom-chocolate);
+    display: block;
+    height: 100%;
+    
+}
