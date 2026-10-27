@@ -142,3 +142,25 @@ section.categorias_paes h3 {
     font-size: 2em;
     font-weight: 900;
 }
+
+section.categorias_paes p {
+    color: var(--caramelo);
+    font-family: var(--font-lato);
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+section.categorias_paes div.nossos {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+div.nossos article {
+    display: block;
+    background-color: var(--caramelo);
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+}
