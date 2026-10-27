@@ -181,10 +181,3 @@ article h4 {
     text-align: center;
     padding: 10px;
 }
-
-article picture {
-    background-color: var(--marrom-chocolate);
-    display: block;
-    height: 100%;
-    
-}
