@@ -167,6 +167,7 @@ section.categorias_paes div.nossos {
 div.nossos article {
     display: block;
     width: 300px;
+    min-width: 250px;
     height: 450px;
 }
 
