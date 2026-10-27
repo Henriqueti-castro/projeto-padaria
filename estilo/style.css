@@ -166,10 +166,8 @@ section.categorias_paes div.nossos {
 
 div.nossos article {
     display: block;
-    background-color: var(--caramelo);
-    border-radius: 10px;
     width: 300px;
-    height: 400px;
+    height: 450px;
 }
 
 article h4 {
@@ -179,5 +177,21 @@ article h4 {
     font-size: 1.5em;
     font-weight: 900;
     text-align: center;
+    padding: 10px;
+}
+
+article a {
+    color: var(--creme);
+    background-color: var(--marrom-chocolate);
+    font-family: var(--font-lato);
+    font-size: 0.8em;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin: auto;
+    width: 150px;
     padding: 10px;
 }
