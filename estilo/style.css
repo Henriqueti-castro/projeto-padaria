@@ -132,6 +132,9 @@ div.conheca p#convidar {
 }
 
 main.principal section.categorias_paes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     padding-top: 50px;
     padding-left: 50px;
 }
@@ -153,6 +156,7 @@ section.categorias_paes p {
 section.categorias_paes div.nossos {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 20px;
     margin-top: 50px;
 }
