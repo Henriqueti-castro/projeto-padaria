@@ -79,7 +79,7 @@ header.topo form {
 form input {
     background-color: var(--creme);
     text-align: center;
-    border-radius: 10px;
+    border-radius: 20px;
     border: 2px solid var(--caramelo);
     outline: none;
     padding: 10px;
