@@ -93,10 +93,13 @@ main.principal div.banner_paes {
 }
 
 div.banner_paes div.conheca {
+    line-height: 2em;
     position: absolute;
     top: 50%;
     left: 5%;
+    transform: translateY(-10%);
     text-transform: uppercase;
+    height: 200px;
     
 }
 
@@ -105,4 +108,25 @@ div.conheca h2 {
     font-family: var(--font-playfair);
     font-size: 3.5em;
     font-weight: bold;
+    padding-bottom: 15px;
+}
+
+div.conheca p {
+    color: var(--branco);
+    font-family: var(--font-lato);
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+div.conheca p#atrair {
+    color: var(--bege-trigo);
+}
+
+div.conheca p#convidar {
+    color: var(--branco-quente);
+    background-color: var(--marrom-chocolate);
+    text-align: center;
+    border-radius: 10px;
+    width: 250px;
+    padding: 10px;
 }
