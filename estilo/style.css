@@ -194,4 +194,9 @@ article a {
     margin: auto;
     width: 150px;
     padding: 10px;
+    transition: 0.3s;
+}
+
+article a:hover {
+    background-color: var(--marrom-escuro);
 }
