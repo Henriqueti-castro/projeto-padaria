@@ -201,3 +201,35 @@ article a {
 article a:hover {
     background-color: var(--marrom-escuro);
 }
+
+footer {
+    background-color: var(--marrom-escuro);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    border-top: 1px solid var(--marrom-chocolate);
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+footer p {
+    color: var(--branco);
+    font-family: var(--font-lato);
+    font-size: 0.8em;
+    font-weight: 900;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+}
+
+footer a {
+    color: var(--creme);
+    font-family: var(--font-lato);
+    font-size: 0.8em;
+    font-weight: 900;
+    text-decoration: none;
+}
