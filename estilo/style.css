@@ -89,14 +89,20 @@ main.principal div.banner_paes {
     background: var(--caramelo) url('../imagens/banner/banner-paes.png') center center no-repeat;
     background-size: cover;
     height: 500px;
+    position: relative;
 }
 
-main.principal article.conheca {
-    line-height: 2em;
-    margin-top: 100px;
-    margin-left: 100px;
+div.banner_paes div.conheca {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    text-transform: uppercase;
+    
 }
 
-article.conheca h2 {
-    color: var(--marrom-chocolate);
+div.conheca h2 {
+    color: var(--marrom-escuro);
+    font-family: var(--font-playfair);
+    font-size: 3.5em;
+    font-weight: bold;
 }
