@@ -220,6 +220,7 @@ article.texto h2 {
     color: var(--marrom-chocolate);
     font-family: var(--font-playfair);
     font-size: 2em;
+    padding-bottom: 20px;
 }
 
 article.texto p {
