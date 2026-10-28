@@ -202,6 +202,11 @@ article a:hover {
     background-color: var(--marrom-escuro);
 }
 
+main.principal  section.historico {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
 footer {
     background-color: var(--marrom-escuro);
     display: flex;
