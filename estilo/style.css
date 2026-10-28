@@ -205,8 +205,10 @@ article a:hover {
 main.principal  section.historico {
     display: flex;
     align-items: center;
+    gap: 50px;
     padding-top: 50px;
     padding-left: 50px;
+    padding-right: 50px;
 }
 
 section.historico article.texto {
@@ -232,8 +234,11 @@ section.historico article.registro {
     gap: 20px;
 }
 
-article.registro div.img1 {
-
+article.registro div.img {
+    background-color: var(--marrom-chocolate);
+    display: block;
+    width: 200px;
+    height: 250px;
 }
 
 footer {
