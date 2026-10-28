@@ -206,6 +206,7 @@ main.principal  section.historico {
     display: flex;
     align-items: center;
     gap: 50px;
+    justify-content: center;
     padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
@@ -226,6 +227,7 @@ article.texto p {
     font-family: var(--font-lato);
     font-size: 0.9em;
     text-align: left;
+    width: 700px;
 }
 
 section.historico article.registro {
