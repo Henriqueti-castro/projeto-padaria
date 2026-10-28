@@ -134,7 +134,51 @@ div.conheca p#convidar {
     padding: 10px;
 }
 
-main.principal section.categorias_paes {
+main.principal  section.historico {
+    border-bottom: 1px solid var(--caramelo);
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section.historico article.texto {
+    line-height: 2em;
+}
+
+article.texto h2 {
+    color: var(--marrom-chocolate);
+    font-family: var(--font-playfair);
+    font-size: 2em;
+    padding-bottom: 20px;
+}
+
+article.texto p {
+    color: var(--caramelo);
+    font-family: var(--font-lato);
+    font-size: 0.9em;
+    text-align: left;
+    width: 700px;
+}
+
+section.historico article.registro {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+article.registro div.img {
+    background-color: var(--marrom-chocolate);
+    display: block;
+    width: 200px;
+    height: 250px;
+}
+
+main.principal section.cards_paes {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -142,21 +186,21 @@ main.principal section.categorias_paes {
     padding-left: 50px;
 }
 
-section.categorias_paes h3 {
+section.cards_paes h3 {
     color: var(--marrom-chocolate);
     font-family: var(--font-playfair);
     font-size: 2em;
     font-weight: 900;
 }
 
-section.categorias_paes p {
+section.cards_paes p {
     color: var(--caramelo);
     font-family: var(--font-lato);
     font-weight: 900;
     text-transform: uppercase;
 }
 
-section.categorias_paes div.nossos {
+section.cards_paes div.nossos {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -200,50 +244,6 @@ article a {
 
 article a:hover {
     background-color: var(--marrom-escuro);
-}
-
-main.principal  section.historico {
-    border-bottom: 1px solid var(--caramelo);
-    display: flex;
-    align-items: center;
-    gap: 50px;
-    justify-content: center;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-section.historico article.texto {
-    line-height: 2em;
-}
-
-article.texto h2 {
-    color: var(--marrom-chocolate);
-    font-family: var(--font-playfair);
-    font-size: 2em;
-    padding-bottom: 20px;
-}
-
-article.texto p {
-    color: var(--caramelo);
-    font-family: var(--font-lato);
-    font-size: 0.9em;
-    text-align: left;
-    width: 700px;
-}
-
-section.historico article.registro {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-article.registro div.img {
-    background-color: var(--marrom-chocolate);
-    display: block;
-    width: 200px;
-    height: 250px;
 }
 
 footer {
