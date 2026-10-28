@@ -210,6 +210,7 @@ main.principal  section.historico {
     padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 50px;
 }
 
 section.historico article.texto {
@@ -251,6 +252,7 @@ footer {
     justify-content: center;
     gap: 200px;
     border-top: 1px solid var(--marrom-chocolate);
+    margin-top: 50px;
     padding: 10px;
     padding-left: 100px;
     padding-right: 100px;
