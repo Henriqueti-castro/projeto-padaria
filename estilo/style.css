@@ -203,8 +203,37 @@ article a:hover {
 }
 
 main.principal  section.historico {
+    display: flex;
+    align-items: center;
     padding-top: 50px;
     padding-left: 50px;
+}
+
+section.historico article.texto {
+    line-height: 2em;
+}
+
+article.texto h2 {
+    color: var(--marrom-chocolate);
+    font-family: var(--font-playfair);
+    font-size: 2em;
+}
+
+article.texto p {
+    color: var(--caramelo);
+    font-family: var(--font-lato);
+    font-size: 0.9em;
+    text-align: left;
+}
+
+section.historico article.registro {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+article.registro div.img1 {
+
 }
 
 footer {
