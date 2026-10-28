@@ -191,6 +191,7 @@ section.cards_paes h3 {
     font-family: var(--font-playfair);
     font-size: 2em;
     font-weight: 900;
+    padding-bottom: 10px;
 }
 
 section.cards_paes p {
