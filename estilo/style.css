@@ -179,11 +179,14 @@ article.registro div.img {
 }
 
 main.principal section.cards_paes {
+    border-bottom: 1px solid var(--caramelo);
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
     padding-top: 50px;
-    padding-left: 50px;
+    padding-bottom: 50px;
 }
 
 section.cards_paes h3 {
