@@ -251,6 +251,9 @@ article a:hover {
 
 aside.sobre {
     background-color: var(--marrom-chocolate);
+    line-height: 2em;
+    color: var(--branco);
+    padding: 20px;
 }
 
 footer {
