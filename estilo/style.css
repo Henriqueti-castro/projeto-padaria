@@ -249,6 +249,10 @@ article a:hover {
     background-color: var(--marrom-escuro);
 }
 
+aside.sobre {
+    background-color: var(--marrom-chocolate);
+}
+
 footer {
     background-color: var(--marrom-escuro);
     display: flex;
@@ -256,7 +260,6 @@ footer {
     justify-content: center;
     gap: 200px;
     border-top: 1px solid var(--marrom-chocolate);
-    margin-top: 50px;
     padding: 10px;
     padding-left: 100px;
     padding-right: 100px;
