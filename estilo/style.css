@@ -285,6 +285,10 @@ div.projeto p {
     font-weight: bold;
 }
 
+div.projeto p#espaco {
+    padding-top: 10px;
+}
+
 aside nav.voltar {
     display: block;
     margin-left: auto;
@@ -307,6 +311,12 @@ nav.voltar a {
 nav.voltar a:hover {
     background-color: var(--caramelo);
     transform: translateY(-5px);
+}
+
+div.projeto p > span {
+    color: var(--caramelo);
+    font-weight: 900;
+    text-transform: uppercase;
 }
 
 footer {
