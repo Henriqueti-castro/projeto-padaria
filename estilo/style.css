@@ -261,6 +261,14 @@ aside.sobre div.projeto {
     width: 700px;
 }
 
+div.projeto h5 {
+    color: var(--caramelo);
+    font-family: var(--font-playfair);
+    font-size: 0.9em;
+    text-transform: uppercase;
+
+}
+
 footer {
     background-color: var(--marrom-escuro);
     display: flex;
