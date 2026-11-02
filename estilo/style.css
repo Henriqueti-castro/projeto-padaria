@@ -251,6 +251,10 @@ article a:hover {
 
 aside.sobre {
     background-color: var(--marrom-chocolate);
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
     line-height: 2em;
     color: var(--branco);
     padding: 50px;
@@ -266,7 +270,20 @@ div.projeto h5 {
     font-family: var(--font-playfair);
     font-size: 0.9em;
     text-transform: uppercase;
+}
 
+div.projeto h6 {
+    color: var(--branco);
+    font-family: var(--font-playfair);
+    font-size: 1.5em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+div.projeto p {
+    color: var(--branco);
+    font-family: var(--font-lato);
+    font-weight: bold;
 }
 
 footer {
