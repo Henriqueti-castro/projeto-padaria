@@ -223,6 +223,20 @@ article.registro div.img {
         padding-top: 20px;
         padding-bottom: 20px;
     }
+
+    section.historico article.texto {
+        width: 100%;
+        line-height: 1.8em;
+    }
+
+    article.texto h2 {
+        font-size: 1.6em;
+    }
+
+    article.texto p {
+        text-align: justify;
+        width: 100%;
+    }
 }
 
 main.principal section.cards_paes {
