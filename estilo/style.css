@@ -152,7 +152,12 @@ div.conheca p#convidar {
 
     div.conheca h2 {
         font-size: 2em;
-    }    
+        padding-bottom: 10px;
+    }
+
+    div.conheca p {
+        font-size: 0.8em;
+    }
 }
  
 main.principal  section.historico {
