@@ -150,6 +150,11 @@ div.conheca p#convidar {
         height: 400px;
     }
 
+    div.banner_paes div.conheca {
+        line-height: 1.7em;
+        background-color: red;
+    }
+
     div.conheca h2 {
         font-size: 2em;
         padding-bottom: 10px;
@@ -157,6 +162,12 @@ div.conheca p#convidar {
 
     div.conheca p {
         font-size: 0.8em;
+    }
+
+    div.conheca p#convidar {
+        font-size: 0.8em;
+        width: 200px;
+        padding: 5px;
     }
 }
  
