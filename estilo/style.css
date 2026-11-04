@@ -88,6 +88,10 @@ nav.navegacao a:hover {
     div.campo_logo h1 {
         font-size: 0.8em;
     }
+
+    header.topo nav.navegacao {
+        gap: 0.6em;
+    }
 }
 
 main.principal div.banner_paes {
