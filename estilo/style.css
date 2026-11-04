@@ -75,19 +75,6 @@ nav.navegacao a:hover {
     color: var(--caramelo);
 }
 
-header.topo form {
-    margin-left: 100px;
-}
-
-form input {
-    background-color: var(--creme);
-    text-align: center;
-    border-radius: 20px;
-    border: 2px solid var(--caramelo);
-    outline: none;
-    padding: 10px;
-}
-
 main.principal div.banner_paes {
     background: var(--caramelo) url('../imagens/banner/banner-paes.png') center center no-repeat;
     background-size: cover;
