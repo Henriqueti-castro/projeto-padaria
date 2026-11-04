@@ -207,13 +207,6 @@ section.historico article.registro {
     gap: 20px;
 }
 
-article.registro div.img {
-    background-color: var(--marrom-chocolate);
-    display: block;
-    width: 200px;
-    height: 250px;
-}
-
 @media (max-width: 800px) {
     main.principal  section.historico {
         flex-direction: column;
