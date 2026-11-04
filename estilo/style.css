@@ -92,6 +92,10 @@ nav.navegacao a:hover {
     header.topo nav.navegacao {
         gap: 0.6em;
     }
+
+    nav.navegacao a {
+        font-size: 0.8em;
+    }
 }
 
 main.principal div.banner_paes {
