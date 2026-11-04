@@ -145,6 +145,16 @@ div.conheca p#convidar {
     padding: 10px;
 }
 
+@media (max-width: 800px) {
+    main.principal div.banner_paes {
+        height: 400px;
+    }
+
+    div.conheca h2 {
+        font-size: 2em;
+    }    
+}
+ 
 main.principal  section.historico {
     border-bottom: 1px solid var(--caramelo);
     display: flex;
