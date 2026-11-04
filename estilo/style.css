@@ -80,6 +80,10 @@ nav.navegacao a:hover {
         padding-left: 20px;
         padding-right: 20px;
     }
+
+    div.campo_logo img {
+        width: 50px;
+    }
 }
 
 main.principal div.banner_paes {
