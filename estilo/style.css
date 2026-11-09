@@ -315,6 +315,10 @@ article a:hover {
     section.cards_paes h3 {
         font-size: 1.6em;
     }
+
+    section.cards_paes p {
+        font-size: 0.7em;
+    }
 }
 
 aside.sobre {
