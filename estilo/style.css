@@ -304,6 +304,15 @@ article a:hover {
     background-color: var(--marrom-escuro);
 }
 
+@media (max-width: 800px) {
+    main.principal section.cards_paes {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
 aside.sobre {
     background-color: var(--marrom-chocolate);
     display: flex;
