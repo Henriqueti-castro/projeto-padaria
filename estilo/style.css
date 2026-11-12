@@ -414,6 +414,10 @@ div.projeto p > span {
     div.projeto h6 {
         font-size: 1.2em;
     }
+
+    div.projeto p {
+        font-size: 0.8em;
+    }
 }
 
 footer {
