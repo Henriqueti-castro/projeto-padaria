@@ -400,6 +400,13 @@ div.projeto p > span {
     text-transform: uppercase;
 }
 
+@media (max-width: 800px) {
+    aside.sobre {
+        gap: 20px;
+        padding: 20px;
+    }
+}
+
 footer {
     background-color: var(--marrom-escuro);
     display: flex;
