@@ -402,8 +402,13 @@ div.projeto p > span {
 
 @media (max-width: 800px) {
     aside.sobre {
+        flex-direction: column;
         gap: 20px;
         padding: 20px;
+    }
+
+    aside.sobre div.projeto {
+        width: 100%
     }
 }
 
