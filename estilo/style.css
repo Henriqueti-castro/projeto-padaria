@@ -410,6 +410,10 @@ div.projeto p > span {
     aside.sobre div.projeto {
         width: 100%
     }
+
+    div.projeto h6 {
+        font-size: 1.2em;
+    }
 }
 
 footer {
