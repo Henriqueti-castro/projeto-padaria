@@ -266,22 +266,13 @@ section.cards_paes div.nossos {
     margin-top: 50px;
 }
 
-div.nossos h4 {
-    color: var(--marrom-chocolate);
-    font-family: var(--font-playfair);
-    font-size: 1.5em;
-    font-weight: 900;
-    text-align: center;
-    padding: 10px;
+div.nossos article.card_posicao {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
-div.nossos article {
-    display: block;
-    width: 300px;
-    height: 450px;
-}
-
-article a {
+article.card_posicao a {
     color: var(--creme);
     background-color: var(--marrom-chocolate);
     font-family: var(--font-lato);
