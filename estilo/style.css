@@ -423,6 +423,11 @@ div.projeto p > span {
         margin-left: 0px;
         margin-right: auto;
     }
+
+    nav.voltar a {
+        font-size: 0.5em;
+        padding: 5px;
+    }
 }
 
 footer {
