@@ -272,6 +272,13 @@ div.nossos article.card_posicao {
     gap: 10px;
 }
 
+article.card_posicao h4 {
+    color: var(--marrom-escuro);
+    font-family: var(--font-playfair);
+    font-size: 1.5em;
+    text-align: center;
+}
+
 article.card_posicao a {
     color: var(--creme);
     background-color: var(--marrom-chocolate);
@@ -312,23 +319,12 @@ article a:hover {
     section.cards_paes div.nossos {
         display: flex;
         flex-direction: column;
-        gap: 50px;
+        gap: 30px;
         margin-top: 20px;
     }
 
-    div.nossos article {
-        border: 1px solid red;
-        width: 200px;
-        height: 250px;
-    }
-
-    div.nossos h4 {
-        font-size: 1.1em;
-        padding: 5px;
-    }
-
-    article picture img {
-        width: 86%;
+    article.card_posicao h4 {
+        font-size: 1.2em;
     }
 }
 
