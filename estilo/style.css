@@ -449,11 +449,6 @@ footer p {
     font-weight: 900;
 }
 
-footer div {
-    display: flex;
-    flex-direction: column;
-}
-
 footer a {
     color: var(--creme);
     font-family: var(--font-lato);
@@ -474,6 +469,12 @@ footer a:hover {
     }
 
     footer p {
-        font-size: 0.5em;
+        font-size: 0.6em;
+        text-align: center;
+    }
+
+    footer a {
+        font-size: 0.6em;
+        text-align: center;
     }
 }
