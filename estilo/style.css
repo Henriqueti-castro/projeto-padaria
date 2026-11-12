@@ -269,6 +269,7 @@ section.cards_paes div.nossos {
 div.nossos article.card_posicao {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     gap: 10px;
 }
@@ -325,7 +326,7 @@ article a:hover {
     }
 
     article.card_posicao h4 {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 }
 
